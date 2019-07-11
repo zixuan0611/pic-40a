@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Summer Trip</title>
+	<link rel="stylesheet" href="hw2.css" />
+</head>
+
+<body>
+	<article>
+	<h1>A Trip to Tokyo</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Hour</th> <th>Activity</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>7-8am</th> <td>Casual breakfast</td>
+				</tr>
+				<tr>
+					<th>8-10am</th> <td>Visit Tokyo Tower</td>
+				</tr>
+				<tr>
+					<th>10-10:30am</th> <td>Coffee break</td>
+				</tr>
+				<tr>
+					<th>10:30am-12pm</th> <td>Visit Sensoji Temple</td>
+				</tr>
+				<tr>
+					<th>12-1pm</th> <td>Lunch at the best restaurant in Ginza</td>
+				</tr>
+				<tr>
+					<th>1-2:30pm</th> <td>Visit Tokyo Skytree</td>
+				</tr>
+				<tr>
+					<th>2:30-3pm</th> <td>Coffee break</td>
+				</tr>
+				<tr>
+					<th>3-5pm</th> <td>Shopping</td>
+				</tr>
+				<tr>
+					<th>Evening</th> <td>have dinner and rest</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<img src="skytree.jpg" alt="View of Tokyo Skytree" title="Tokyo Skytree" class="first">
+			<img src="sensoji.jpg" alt="View of Sensoji Temple" title="Sensoji Temple" class="second">
+			<img src="tower.jpg" alt="View of Tokyo Tower" title="Tokyo Tower" class="third">
+			Tokyo Tower is one of the best-known towers in the world. Made of prefabricated steel, Tokyo Tower is called light because it weighs only 4,000 metric tons. At a height of 1,092 feet (333 meters), it is the world’s tallest self-supporting steel tower. Since its opening in 1958, it has become well known to visitors around the world, not only as one of Tokyo’s popular sightseeing attractions, but also as the symbol of Tokyo as an international city. All of Tokyo’s nine television and four FM radio stations are transmitted throughout the entire metropolitan area from Tokyo Tower. Various gauges and instruments mounted on top of the tower monitor the condition of the air above Tokyo and the traffic conditions in the streets below. The lights of Tokyo Tower, suspending it beautifully in the night sky, are made up of 164 flood lights installed on the various parts of the tower.
+		</p>
+		<p>
+			Sensoji is perhaps the most famous and photographed of Tokyo's temples. It is the oldest Buddhist temple in the capital, and the five-story pagoda, trails of incense and vast eaves will take you back to a Tokyo of time gone by. The approach to Sensoji, known as Nakamise Dori, is lined with about a hundred shops selling crafts, souvenirs and plenty of sweet and savory snacks. Throughout the year you can come across seasonal events held on the temple grounds. Some of the most popular include Asakusa-jinja Shrine’s Sanja Festival collaboration event in May, the hozuki (Chinese lantern plant) market in July and the photogenic hagoita decorative paddle market in December.
+		</p>
+		<p>
+			Tokyo Skytree is a broadcasting tower in Sumida ward, eastern Tokyo, that offers visitors panoramic views of the metropolis as well as a huge array of shopping, dining and entertainment opportunities. Tokyo Skytree is 634 meters high making it the tallest completely self-supporting tower in the world. "634" can be phoneticized in Japanese as "mu-sa-shi" and was a number intentionally picked to represent the name of the old province, Musashi, that Tokyo used to be part of, centuries ago.
+		</p>
+		<p>
+			All in all, Tokyo is a beautiful place.
+		</p>
+	</article>
+
+	<form>
+		<fieldset id="TokyoLocations">
+			<p>
+				If you've been to Tokyo, or if you can imagine going, which place do you like best?
+			</p>
+			<p>
+				<label for="p1">Tokyo Tower</label>
+				<input type="radio" id="p1" value="tower" name="TKYlocation" checked />
+				<label for="p2">Sensoji Temple</label>
+				<input type="radio" id="p2" value="temple" name="TKYlocation" />
+				<label for="p3">Tokyo Skytree</label>
+				<input type="radio" id="p3" value="skytree" name="TKYlocation" />
+			</p>
+		</fieldset>
+
+		<fieldset id="TokyoComments">
+			<p>
+				Leave a comment.
+			</p>
+			<p>
+				<textarea rows="8" cols="160" name="comment"></textarea>
+			</p>
+
+		</fieldset>
+
+		<fieldset id="TokyoButton">
+			<p>
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Reset" />
+			</p>
+		</fieldset>
+	</form>
+
+
+
+</body>
+
+</html>

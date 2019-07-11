@@ -1,0 +1,77 @@
+body{
+	background-color: #EDD55C;
+}
+
+/*our title line*/
+h1{
+	color: white;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 2.5em;
+}
+
+/*table on the left*/
+table{
+	margin: 1em;
+	float: left;
+	border-collapse: separate;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	font-family: "Times New Roman", serif;
+}
+
+table th,
+table td{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+/*paragraphs indented*/
+p{
+	font-family: "Times New Roman", serif;
+	text-indent: 15px;
+}
+
+/*images on the right*/
+/*Default: picture of Tokyo Tower appears on the top (highest z-index)*/
+img{
+	position: relative;
+	float: right;
+	height: 200px;
+	width: 300px;
+	margin: 1em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.first{
+	margin-top: 70px;
+	z-index: 1;
+}
+.second{
+	margin-top: 40px;
+	margin-right: -200px;
+	z-index: 2;
+}
+.third{
+	margin-right: -200px;
+	z-index: 3;
+}
+
+/*images, if hovered over, come to the top with different border color*/
+img:hover{
+	border-color: green;
+	z-index: 10;
+}
+
+/*form on the bottom*/
+form{
+	background-color: #B2E0F7;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
