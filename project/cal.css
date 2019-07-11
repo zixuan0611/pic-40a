@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  border:0;
+  padding:0;
+  font-family: "URW Chancery L", cursive;
+  font-weight: 900;
+  color: #fff;
+}
+
+body {
+  background-color: #ffa9b7;
+  padding: 50px;
+}
+
+input[type=text] {
+  color: #ffa9b7;
+}
+
+input[type=password] {
+  color: #ffa9b7;
+}
+
+.styled_input {
+  padding-left: 5px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.link_button {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  width: 120px;
+  background-color: #FF8494;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+/* register.html*/
+
+#register_body {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#register_body h1 {
+  margin-bottom: 20px;
+}
+
+/* login.html*/
+
+#login_body {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#login_body h1 {
+  margin-bottom: 20px;
+}
