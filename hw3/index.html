@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" href="hw3.css" />
+	<script src="hw3.js" defer ></script>
+</head>
+
+<body>
+	<h1>Simple Calculator</h1>
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td> 
+						First value: <textarea id="value1" rows="1" cols="25" name="value1"></textarea> 
+					</td>
+					<td>
+						<fieldset id="calculate">
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<label for="add">+</label>
+											<input type="radio" id="add" value="add" name="operation" checked />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="subtract">-</label>
+											<input type="radio" id="subtract" value="subtract" name="operation" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="multiply">&times;</label>
+											<input type="radio" id="multiply" value="multiply" name="operation" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label for="divide">&divide;</label>
+											<input type="radio" id="divide" value="divide" name="operation" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</fieldset>
+					</td>
+					<td>
+						Second value: <textarea id="value2" rows="1" cols="25" name="value2"></textarea>
+					</td>
+					<td>
+						<input type="button" value="compute" onclick="change();"/>
+					</td>
+				</tr>				
+			</tbody>
+		</table>
+
+	</form>
+	<p id="result">Result: </p>
+			
+
+</body>
+
+</html>
